@@ -1,0 +1,17 @@
+body{ font-family: 'Fira Mono', monospace; }
+.card { padding-top: 20px; margin: 10px 0 20px; border: 0 0 10px; border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+.card.hovercard .cardheader img{ object-fit: cover; object-position: center; height: 300px; }
+.card.hovercard .card-body { padding: 0 20px; margin-top: 20px; }
+.card.hovercard .card-body .avatar {position: relative; top: -100px; margin-bottom: -100px; }
+.card.hovercard .card-body .avatar img{ object-fit: cover; object-position: center; width: 200px; height: 200px; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%;  border: 5px solid rgba(255,255,255,0.5); }
+.card.hovercard { position: relative; padding-top: 0px; overflow: hidden; text-align: center;}
+.card.hovercard .info { padding: 4px 8px 10px;}
+.card.hovercard .info .title { margin-bottom: 4px; font-size: 24px; line-height: 1; color: #262626; vertical-align: middle; }
+.card.hovercard .info p { overflow: hidden; font-size: 12px; line-height: 20px; color: #737373; text-overflow: ellipsis; }
+.card.hovercard .socials { padding: 0 20px; margin-bottom: 17px; }
+.card.hovercard .socials .btn{ border-radius: 50%; width:32px; height:32px; padding: 0px; }
+.card.hovercard .socials .btn .fa{ vertical-align: middle; text-align: center;}
+.card.hovercard .info .progress {  height: 25px; }
+.card.hovercard .info .progress .progress-bar{ position: relative; height: 25px; }
+.card.hovercard .info .progress .progress-type { position: absolute; left: 0px; font-weight: 800; padding: 3px 30px 20px 10px; }
+.card.hovercard .info .progress .progress-liked{ position: absolute;; right: 0px; font-weight: 800; padding: 3px 30px 20px 10px; }
